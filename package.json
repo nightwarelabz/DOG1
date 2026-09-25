@@ -1,0 +1,15 @@
+{
+  "name": "dog1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fictional global-grid tabletop simulation",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0"
+}
